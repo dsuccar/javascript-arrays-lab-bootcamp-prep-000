@@ -10,6 +10,6 @@ function destructivelyRemoveLastKitten(){
   return kittens.pop()
 }
 function destructivelyRemoveFirstKitten(){
-  return kittens.slice()
+  return kittens.shift()
 }
 // Add your functions and code here
