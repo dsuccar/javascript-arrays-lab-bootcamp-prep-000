@@ -16,7 +16,7 @@ function appendKitten(name){
   return [...kittens,'Broom']
 }
 function prependKitten(name){
-  return [...kittens,name]
+  return [name, ...kittens]
 }
 function removeLastKitten(){
     return kittens.slice(0,kittens.length-1)
